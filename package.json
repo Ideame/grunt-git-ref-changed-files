@@ -1,7 +1,7 @@
 {
     "name": "grunt-git-ref-changed-files",
     "description": "Detects which files have changed between two git refs.",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "homepage": "https://github.com/Ideame/grunt-git-ref-changed-files",
     "author": {
         "name": "Juan Pablo Garcia",

@@ -31,7 +31,10 @@ module.exports = function (grunt) {
 
             grunt.log.writeln('Checking if provided regular expression matches with file changes in the last commit.');
 
-            if (err) { done(err); }
+            if (err) {
+                grunt.log.error(err);
+                return done();
+            }
 
             var refsChangedFiles = _.compact(String(result).split(grunt.util.linefeed));
 

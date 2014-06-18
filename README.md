@@ -59,5 +59,5 @@ grunt.config.get('refChangedFiles');
 License
 -------
 
-Copyright (c) 2012 Juan Pablo Garcia
+Copyright (c) 2013 Juan Pablo Garcia
 Licensed under the MIT license.
